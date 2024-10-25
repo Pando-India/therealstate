@@ -90,22 +90,13 @@ function GetInTouch() {
               />
             </div>
 
-            <input
-              type="submit"
+            <button
+              type="button"
               value="Submit"
-              className="w-full p-3 px-10 bg-[#0C9A5A] text-white rounded-full my-5 hover:bg-green-500"
-            />
+              className="w-full p-3 px-10 bg-[#0C9A5A] text-white rounded-full my-5 hover:bg-[#0A7847] hover:text-white transition-all duration-300 hover:scale-95 "
+            >Submit</button>
           </form>
         </div>
-        {/* text */}
-        {/* <div className=" mx-auto text-white">
-          <h2 className="text-4xl font-semibold mb-3">Get in touch</h2>
-          <p className="font-semibold text-lg mt-6">
-            Are you ready to find your rhythm? Join <br /> our recreational
-            dance program today <br /> and dance your way to confidence, <br />{" "}
-            fitness, and fun!
-          </p>
-        </div> */}
         {/* map */}
         <div>
           <iframe
