@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from "../../assets/Images/Discover/img1.png"
-import img2 from "../../assets/Images/Discover/img2.png"
-import img3 from "../../assets/Images/Discover/img3.png"
-import img4 from "../../assets/Images/Discover/img4.png"
+import img1 from "../../assets/images/Discover/img1.png"
+import img2 from "../../assets/images/Discover/img2.png"
+import img3 from "../../assets/images/Discover/img3.png"
+import img4 from "../../assets/images/Discover/img4.png"
 import { IoMdHeart } from "react-icons/io";
 import Properties from "./Properties.jsx";
 import { Link } from "react-router-dom";
