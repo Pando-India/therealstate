@@ -44,7 +44,7 @@ function Values() {
             {/* Image */}
             <img src={value.img} alt="" className=""/>
             <div className="absolute inset-x-0 bottom-0 w-full h-1/3 bg-gradient-to-t from-black/75 to-transparent rounded-3xl">
-              <p className=" cursor-none absolute bottom-6 w-full flex justify-center items-center text-[28px] font-medium text-white text-center">
+              <p className=" cursor-none absolute bottom-6 w-full flex justify-center text-[20px] items-center 2xl:text-[28px] font-medium text-white text-center">
                 {value.title}
               </p>
             </div>

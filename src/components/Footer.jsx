@@ -25,7 +25,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-[#0a7847] text-white px-6 py-2 rounded-full hover:bg-[#1eb83a] transition-colors duration-200"
+              className="bg-[#0a7847] text-white px-6 py-2 rounded-full hover:bg-[#1eb83a] transition-colors duration-200  hover:bg-[#0A7847] hover:text-white transition-all duration-300 hover:scale-95"
             >
               Subscribe
             </button>
@@ -65,7 +65,7 @@ const Footer = () => {
             <li>
               <a 
                 href="/contact" 
-                className="inline-block mt-4 px-6 py-2 bg-[#0a7847] text-white rounded-full hover:bg-[#1eb83a] transition-colors duration-200"
+                className="inline-block mt-4 px-6 py-2 bg-[#0a7847] text-white rounded-full hover:bg-[#0A7847] hover:text-white transition-all duration-300 hover:scale-95"
               >
                 Free Enquiry
               </a>
