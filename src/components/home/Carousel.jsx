@@ -8,6 +8,9 @@ import carousel1 from "../../assets/images/carousel/carousel1.png";
 import carousel2 from "../../assets/images/carousel/carousel2.png";
 import carousel3 from "../../assets/images/carousel/carousel3.png";
 import carousel4 from "../../assets/images/carousel/carousel4.png";
+import carousel5 from "../../assets/images/carousel/carousel5.jpg";
+import carousel6 from "../../assets/images/carousel/carousel6.jpg";
+import carousel7 from "../../assets/images/carousel/carousel7.jpg";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper/modules";
@@ -19,32 +22,54 @@ function Carousel() {
     {
       id: 1,
       image: carousel1,
-      location: "New York, USA",
-      miniDescription: "A beautiful apartment in the heart of the city.",
-      property: "3 & 4 BHK",
+      location: "Rishikesh, India",
+      miniDescription: "A serene riverside resort with beautiful mountain views.",
+      property: "2 & 3 BHK",
     },
     {
       id: 2,
       image: carousel2,
-      location: "Paris, France",
-      miniDescription: "Charming studio near the Eiffel Tower.",
-      property: "3 & 4 BHK",
+      location: "Goa, India",
+      miniDescription: "A modern apartment just minutes from the beach.",
+      property: "1 & 2 BHK",
     },
     {
       id: 3,
       image: carousel3,
-      location: "Tokyo, Japan",
-      miniDescription: "Modern house with a traditional Japanese garden.",
-      property: "3 & 4 BHK",
+      location: "Jaipur, India",
+      miniDescription: "A royal villa with traditional Rajasthani architecture.",
+      property: "4 & 5 BHK",
     },
     {
       id: 4,
       image: carousel4,
-      location: "Sydney, Australia",
-      miniDescription: "Spacious villa with ocean views.",
-      property: "3 & 4 BHK",
+      location: "Mumbai, India",
+      miniDescription: "An elegant flat with a stunning city view.",
+      property: "3 BHK",
     },
-  ];
+    {
+      id: 5,
+      image: carousel5,
+      location: "Shimla, India",
+      miniDescription: "A cozy mountain cabin surrounded by lush pine forests.",
+      property: "2 BHK",
+    },
+    {
+      id: 6,
+      image: carousel6,
+      location: "Udaipur, India",
+      miniDescription: "A lakeside resort with a breathtaking view of the city palace.",
+      property: "Luxury Suite",
+    },
+    {
+      id: 7,
+      image: carousel7,
+      location: "Pondicherry, India",
+      miniDescription: "A peaceful beachside villa with French colonial charm.",
+      property: "3 BHK",
+    }
+  ]
+  
 
   return (
     <div>
@@ -63,7 +88,7 @@ function Carousel() {
         >
           {dummyData.map((item) => (
             <SwiperSlide key={item.id}>
-              <img src={item.image} alt="" className="" />
+              <img src={item.image} alt="" className="w-[1440px] md:h-[510px] xl:h-[580px] 2xl:h-[710px]  rounded-[56px]" />
               <div className="absolute bottom-10 text-white left-10">
                 <p className="text-xl font-semibold">{item.location}</p>
                 <p className="text-md font-normal">
