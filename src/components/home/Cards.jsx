@@ -2,7 +2,14 @@ import React from 'react'
 import img1 from "../../assets/images/discover/img1.png"
 import img2 from "../../assets/images/discover/img2.png"
 import img3 from "../../assets/images/discover/img3.png"
-import img4 from "../../assets/images/discover/img4.png"
+import img5 from "../../assets/images/discover/img5.jpg"
+import img6 from "../../assets/images/discover/img6.jpg"
+import img7 from "../../assets/images/discover/img7.jpg"
+import img8 from "../../assets/images/discover/img8.jpg"
+import img9 from "../../assets/images/discover/img9.jpg"
+import img10 from "../../assets/images/discover/img10.jpg"
+import img12 from "../../assets/images/discover/img12.jpg"
+import img16 from "../../assets/images/discover/img16.jpg"
 import { IoMdHeart } from "react-icons/io";
 import Properties from "./Properties.jsx";
 import { Link } from "react-router-dom";
@@ -20,7 +27,7 @@ function Cards() {
     },
     {
       id: 2,
-      img: img2,
+      img: img10,
       name: "Liaes Spanish Rishikesh",
       views: "4,561",
       dateRange: "15 - 20 Dec",
@@ -29,33 +36,6 @@ function Cards() {
     },
     {
       id: 3,
-      img: img3,
-      name: "Liaes Spanish Rishikesh",
-      views: "4,561",
-      dateRange: "15 - 20 Dec",
-      price: "₹63,570",
-      tag: "Most Trending",
-    },
-    {
-      id: 4,
-      img: img4,
-      name: "Liaes Spanish Rishikesh",
-      views: "4,561",
-      dateRange: "15 - 20 Dec",
-      price: "₹63,570",
-      tag: "Most Trending",
-    },
-    {
-      id: 1,
-      img: img1,
-      name: "Liaes Spanish Rishikesh",
-      views: "4,561",
-      dateRange: "15 - 20 Dec",
-      price: "₹63,570",
-      tag: "Most Trending",
-    },
-    {
-      id: 2,
       img: img2,
       name: "Liaes Spanish Rishikesh",
       views: "4,561",
@@ -64,8 +44,8 @@ function Cards() {
       tag: "Most Trending",
     },
     {
-      id: 3,
-      img: img3,
+      id: 4,
+      img: img6,
       name: "Liaes Spanish Rishikesh",
       views: "4,561",
       dateRange: "15 - 20 Dec",
@@ -73,8 +53,35 @@ function Cards() {
       tag: "Most Trending",
     },
     {
-      id: 4,
-      img: img4,
+      id: 5,
+      img: img12,
+      name: "Liaes Spanish Rishikesh",
+      views: "4,561",
+      dateRange: "15 - 20 Dec",
+      price: "₹63,570",
+      tag: "Most Trending",
+    },
+    {
+      id: 6,
+      img: img2,
+      name: "Liaes Spanish Rishikesh",
+      views: "4,561",
+      dateRange: "15 - 20 Dec",
+      price: "₹63,570",
+      tag: "Most Trending",
+    },
+    {
+      id: 7,
+      img: img16,
+      name: "Liaes Spanish Rishikesh",
+      views: "4,561",
+      dateRange: "15 - 20 Dec",
+      price: "₹63,570",
+      tag: "Most Trending",
+    },
+    {
+      id: 8,
+      img: img3,
       name: "Liaes Spanish Rishikesh",
       views: "4,561",
       dateRange: "15 - 20 Dec",
@@ -102,7 +109,7 @@ function Cards() {
                 className="bg-white rounded-lg overflow-hidden relative"
               >
                 <img
-                  className="w-full h-9/12 rounded-3xl object-cover"
+                  className="w-full md:h-[350px] lg:h-[300px] xl:h-[320px] 2xl:h-[380px] rounded-3xl object-cover"
                   src={property.img}
                   alt={property.name}
                 />
